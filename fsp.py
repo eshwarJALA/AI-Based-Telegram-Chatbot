@@ -14,7 +14,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 
-csv_file = r'C:\Users\eshwa\OneDrive\Desktop\Jala\FSP chatbot\fspfaqcv.csv'
+csv_file =  //give the exact file location here
 
 
 model = SentenceTransformer('distilbert-base-nli-mean-tokens')
@@ -72,7 +72,7 @@ def handle_message(update: Update, context: CallbackContext):
 
 def main():
     
-    updater = Updater("6207626491:AAGcExpNfJLSktcgD97GwnvZQnC4YUs_SEY")
+    updater = Updater("   ---key---    ")  //give your bot API id here 
 
     
     dispatcher = updater.dispatcher
@@ -101,5 +101,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-
-# 6207626491:AAGcExpNfJLSktcgD97GwnvZQnC4YUs_SEY
