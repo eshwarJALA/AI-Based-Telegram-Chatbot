@@ -1,3 +1,3 @@
-->this project needs a dataset as its first priority(i have used a csv file) and a telegram bot(with the API of the bot
+->this project needs a dataset as its first priority(i have used a csv file) and a telegram bot(with the API-ID of the bot
 ->add Your CSV file in the line 17
 ->add your Telegram bot API in line 75
